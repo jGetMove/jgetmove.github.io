@@ -1,1 +1,12 @@
+site:
+  title: jGetMove
+
 theme: jekyll-theme-minimal
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
