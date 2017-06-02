@@ -1,6 +1,6 @@
-{{ posts.categories | inspect }}
+{{ site.categories | inspect }}
 
-{% for post in site.posts.categories."comptes-rendus" %}
+{% for post in site.categories.comptes-rendus %}
 # [{{ post.title }}]({{ post.url }})
 {{ post.content }}
 {% endfor %}
