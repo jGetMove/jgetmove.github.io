@@ -25,6 +25,7 @@
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
         <nav>
+          {{ site | inspect }}
             {% for page in site.pages %}
               <p class="view"><a href="{{ page.url }}">{{ page.title }}</a>
             {% endfor %}
