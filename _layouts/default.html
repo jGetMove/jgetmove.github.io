@@ -25,11 +25,9 @@
           <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
         {% endif %}
         <nav>
-          <ul>
             {% for page in site.pages %}
-              <li><a href="{{ page.url }}">{{ page.title }}</a>
+              <p class="view"><a href="{{ page.url }}">{{ page.title }}</a>
             {% endfor %}
-          </ul>
         </nav>
 
         {% if site.show_downloads %}
