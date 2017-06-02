@@ -1,1 +1,1 @@
-# jgetmove.github.io
+# jGetMove organisation page
