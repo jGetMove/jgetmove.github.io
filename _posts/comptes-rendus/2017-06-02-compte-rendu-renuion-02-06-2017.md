@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Compte rendu de la réunion du 02/06/2016"
-categories: compte-rendu
 ---
 
 # Compte rendu reunion 02.06.2017
