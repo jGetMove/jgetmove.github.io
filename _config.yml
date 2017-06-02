@@ -1,8 +1,6 @@
-site:
-  title: jGetMove
-
 theme: jekyll-theme-minimal
 
+title: jGetMove
 defaults:
   -
     scope:
