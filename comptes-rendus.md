@@ -1,5 +1,5 @@
 {% for post in site.posts %}
-{{ variable | inspect }}
+{{ post | inspect }}
 {% if post.categories contains "comptes-rendus" %}
 # [{{ post.title }}]({{ post.url }}
 {{ post.content }}
